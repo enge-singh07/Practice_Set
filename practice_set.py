@@ -51,19 +51,19 @@
 #     print("This is not a SPAM !")
 
 #4. Grading system 90-100=excelent, 80-90=a, 70-80=b, 60-70=c, 50-60=d, >50--fail
-# marks = int(input("please enter yous marks: "))
-# if(marks>=90):
-#     print("Excellent")
-# elif(marks>=80):
-#     print("A Grade")
-# elif(marks>=70):
-#     print("B Grade")
-# elif(marks>=60):
-#     print("C Grade")
-# elif(marks>=50):
-#     print("D Grade")
-# else:
-#     print("Fail")
+marks = int(input("please enter yous marks: "))
+if(marks>=90):
+    print("Excellent")
+elif(marks>=80):
+    print("A Grade")
+elif(marks>=70):
+    print("B Grade")
+elif(marks>=60):
+    print("C Grade")
+elif(marks>=50):
+    print("D Grade")
+else:
+    print("Fail")
 
 #Another method
 # marks = int(input("please enter your marks: "))
